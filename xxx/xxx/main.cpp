@@ -45,26 +45,30 @@ int main()
 	ifstream file;
 	file.open("complex.txt");
 	{
-		int c, max, ind;
-		file >> c; //счит файл
-		int р, n;
-		ch* p = new ch[n]; //массив чисел
+			ifstream file;
+	file.open("complex.txt");
+	{
+		int c, d, d1, max, n;
+		file >> c; //считываем файл
+	
+		ch w;
+		ch *p = new ch[n]; //массив чисел
 
 		for (int i = 0; i < n; i++)
 		{
-			file >> c; //первое число
-			p[i].x = c;
-			file >> c;
-			p[i].y = c;  //ВТОРОЕ
-			cout << i + 1 << " число: " << p[i].x << " + (" << p[i].y << ")i\n";  //вывод числа
+			file >> d; //первое число
+			file >> d1; //второе число
+			ch l { d, d1 }; //комплекс число
+			p[i] = l;
+			cout << " число: " << p[i].x << " + (" << p[i].y << ")i\n";  //вывод числа
 			max = 0; //макс индекс пока равен нулю
 			if (sqrt(p[i].x * p[i].x + p[i].y * p[i].y) > max)  //если число больше макс то числло = макс
 			{
-				max = sqrt(p[i].x * p[i].x + p[i].y * p[i].y);
-				ind = i;
+				max = sqrt(p[i].x * p[i].x + p[i].y * p[i].y); //заполняем след числом
+				w = p[i];
 			}
 		}
-		cout << "Комплексное число с максимальным модулем: " << p[ind].x << " + (" << p[ind].y << ")i\n"; //макс модуль
+		cout << "Комплексное число с максимальным модулем: " << p[i].x << " + (" << p[i].y << ")i\n"; //макс модуль
 	}
 	file.close();
 	return 0;
