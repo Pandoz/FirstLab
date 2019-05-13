@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Student\source\repos\xxx\xxx\main.cpp(63): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Student\source\repos\xxx\xxx\main.cpp(50): warning C4101: р: неиспользованная локальная переменная
+  complex.cpp
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(9): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(9): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(10): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(10): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(19): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(19): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(20): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(20): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(30): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(30): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(31): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(31): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(40): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(40): error C2065: b: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(41): error C2065: a: необъявленный идентификатор
+C:\Users\Student\source\repos\xxx\xxx\complex.cpp(41): error C2065: b: необъявленный идентификатор
+  Создание кода...
+C:\Users\Student\source\repos\xxx\xxx\main.cpp(51): error C4700: использована неинициализированная локальная переменная "n"
