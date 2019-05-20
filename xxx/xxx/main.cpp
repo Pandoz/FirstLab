@@ -65,7 +65,7 @@ int main()
 	}
 	
 	cout << "Максимальный индекс: ";
-	cout << pv.x " + " << pv.y; 
+	cout << pv.x " + " << pv.y; //после цикла выводим структуру
 	cout << endl;
 	}
 	file.close();
