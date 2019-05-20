@@ -39,7 +39,7 @@ int main()
 		break;
 
 	default:
-		cout << "Попробуйте снова";
+		cout << "Неверная операция";
 	}
 
 	ifstream file;
